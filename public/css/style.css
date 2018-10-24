@@ -1,0 +1,31 @@
+.row {
+    margin: 0;
+}
+
+.nav-wrapper {
+    margin: 0 20px;
+}
+
+.nav-wrapper > a, #scrape {
+    color: #546e7a!important;
+}
+
+.navbar-fixed {
+    margin-bottom: 15px;
+}
+
+.card-content.white-text {
+    height: 150px!important;
+}
+
+.input-field {
+    margin: 5px!important;
+}
+
+.note-content {
+    margin: 5px 0!important;
+}
+
+.card-reveal {
+    padding: 5px!important;
+}
