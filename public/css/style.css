@@ -1,3 +1,7 @@
+body {
+    font-size: 1rem;
+}
+
 .row {
     margin: 0;
 }
@@ -15,7 +19,7 @@
 }
 
 .card-content.white-text {
-    height: 150px!important;
+    height: 200px!important;
 }
 
 .input-field {
@@ -28,4 +32,8 @@
 
 .card-reveal {
     padding: 5px!important;
+}
+
+.article-container {
+    width: 100%!important;
 }

@@ -17,12 +17,9 @@ app.set("view engine", "handlebars");
 
 app.use(express.static("public"));
 
-// mongoose.connect("mongodb://localhost/fiveThirtyEightScraper", { useNewUrlParser: true });
-
 const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/fiveThirtyEightScraper";
 
 mongoose.connect(MONGODB_URI);
-
 
 require("./controllers/scraperController.js")(app);
 
